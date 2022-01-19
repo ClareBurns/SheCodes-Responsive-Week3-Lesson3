@@ -21,3 +21,14 @@ h3 {
   margin: 30px auto;
   width: 150px;
 }
+
+@media (max-width: 576px) {
+  h4 {
+    color: blue;
+    text-align: center;
+  }
+
+  .hidden-image {
+    display: none;
+  }
+}
